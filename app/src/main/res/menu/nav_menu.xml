@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_Home"
+        android:icon="@drawable/nav_home"
+        android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_Photos"
+            android:icon="@drawable/nav_home1"
+            android:title="Photos"/>
+
+        <item
+            android:id="@+id/nav_Important_Events"
+            android:icon="@drawable/nav_home2"
+            android:title="Important Events"/>
+
+        <item
+            android:id="@+id/nav_Equipment"
+            android:icon="@drawable/nav_home3"
+            android:title="My Equipment"/>
+
+
+
+
+    </group>
+
+
+    <item
+        android:title="">
+
+
+
+    </item>
+
+</menu>
